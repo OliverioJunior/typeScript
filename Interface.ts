@@ -23,4 +23,5 @@ const felino: IFelino ={
     nome:"Leão",
     tipo: "terreste",
     visaoNoturna: true,
+    executarRugido: (alturaEmDecibeis) => (`${alturaEmDecibeis}dB`)
 }
