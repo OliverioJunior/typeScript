@@ -12,16 +12,16 @@ interface IFelino extends IAnimal {
     visaoNoturna: boolean
 }
 
-const animal: IAnimal = {
+/* const animal: IAnimal = {
     nome: "Elefante",
     tipo:"aquático",
     executarRugido: (alturaEmDecibeis) => (`${alturaEmDecibeis}dB`)
 
 }
-animal.executarRugido("s")
+animal.executarRugido(2)
 const felino: IFelino ={
     nome:"Leão",
     tipo: "terreste",
     visaoNoturna: true,
     executarRugido: (alturaEmDecibeis) => (`${alturaEmDecibeis}dB`)
-}
+} */
